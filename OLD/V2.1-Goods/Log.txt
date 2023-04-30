@@ -1,0 +1,1 @@
+Iteration Agents Items Duration Price_Rise_Steps Tranfer_Steps

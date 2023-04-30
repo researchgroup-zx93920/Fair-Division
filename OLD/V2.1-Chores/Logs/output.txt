@@ -1,0 +1,116 @@
+Working on Sample Number 2
+Generating Example... 
+Number of Agents: 3; Number of Items: 6
+Printing Sample: 
+             I0         I1         I2         I3         I4         I5         
+Agent 0 - > 810000000  290000000  510000000  840000000  690000000  530000000  
+Agent 1 - > 550000000  890000000  660000000  680000000  940000000  850000000  
+Agent 2 - > 750000000  680000000  10000000   970000000  410000000  470000000  
+
+Least Spenders -> 0          , 
+
+---------- Allocations: ----------- 
+Agent      0 -> 1          
+Agent      1 -> 0          3          
+Agent      2 -> 2          4          5          
+ ------------- MBB: --------------- 
+Agent      0 -> 1          
+Agent      1 -> 0          3          
+Agent      2 -> 2          4          5          
+ ------------- P(Xi): -------------- 
+0:[        290000000 ]  1:[        1230000000 ]  2:[        890000000 ]  
+ ------------- P(Xi - g_max): -------------- 
+0:[        0 ]  1:[        550000000 ]  2:[        420000000 ]  
+----------------------------------- 
+
+------------- P(j): -------------- 
+0:[        550000000 ] 1:[        290000000 ] 2:[        10000000 ] 3:[        680000000 ] 4:[        410000000 ] 5:[        470000000 ] 
+----------------------------------- 
+
+
+Least Spenders Bundle Price: 290000000
+Big Spender EFMax Bundle Price: 550000000
+----> Allocation not currently pEF1
+Big Spenders EFMax Bundle Price: 550000000
+Least Spenders Bundle Price: 290000000
+Least Spenders -> 0          , 
+Least Spenders 0's Valuation 290000000
+Big Spenders EFMax Bundle Price: 550000000
+Least Spenders Bundle Price: 290000000
+----> No alternating path from LS agent 0 -> Decreasing Prices
+LS Component: Agents -> 0          , 
+LS Component: Items -> 1          , 
+Beta value is 0.88679245283
+Alpha 1 -> 0.88679245283; Alpha 2 -> 4.2413793103
+----> Decreasing Price of LS Component by beta = 0.88679245283
+------------- P(j): -------------- 
+0:[        550000000 ] 1:[        257169811.32 ] 2:[        10000000 ] 3:[        680000000 ] 4:[        410000000 ] 5:[        470000000 ] 
+----------------------------------- 
+
+
+---------- Allocations: ----------- 
+Agent      0 -> 1          
+Agent      1 -> 0          3          
+Agent      2 -> 2          4          5          
+ ------------- MBB: --------------- 
+Agent      0 -> 1          5          
+Agent      1 -> 0          3          
+Agent      2 -> 2          4          5          
+ ------------- P(Xi): -------------- 
+0:[        257169811.32 ]  1:[        1230000000 ]  2:[        890000000 ]  
+ ------------- P(Xi - g_max): -------------- 
+0:[        0 ]  1:[        550000000 ]  2:[        420000000 ]  
+----------------------------------- 
+
+Big Spenders EFMax Bundle Price: 550000000
+Least Spenders Bundle Price: 257169811.32
+Least Spenders -> 0          , 
+Least Spenders 0's Valuation 290000000
+----> Path Violator Found
+Path Violater -> Agent - 2; Item - 5
+----> Transferring item to Agent 0
+Check: 257169811.3208 470000000 727169811.3208
+Big Spenders EFMax Bundle Price: 550000000
+Least Spenders Bundle Price: 420000000
+Least Spenders -> 2          , 
+Least Spenders 2's Valuation 420000000
+Big Spenders EFMax Bundle Price: 550000000
+Least Spenders Bundle Price: 420000000
+----> No alternating path from LS agent 2 -> Decreasing Prices
+LS Component: Agents -> 0          , 2          , 
+LS Component: Items -> 4          , 2          , 1          , 5          , 
+Beta value is 0.9128672745694
+Alpha 1 -> 0.9128672745694; Alpha 2 -> 2.928571428571
+----> Decreasing Price of LS Component by beta = 0.9128672745694
+------------- P(j): -------------- 
+0:[        550000000 ] 1:[        234761904.76 ] 2:[        9128672.7457 ] 3:[        680000000 ] 4:[        374275582.57 ] 5:[        429047619.05 ] 
+----------------------------------- 
+
+
+---------- Allocations: ----------- 
+Agent      0 -> 1          5          
+Agent      1 -> 0          3          
+Agent      2 -> 2          4          
+ ------------- MBB: --------------- 
+Agent      0 -> 1          3          5          
+Agent      1 -> 0          3          
+Agent      2 -> 2          4          5          
+ ------------- P(Xi): -------------- 
+0:[        663809523.81 ]  1:[        1230000000 ]  2:[        383404255.32 ]  
+ ------------- P(Xi - g_max): -------------- 
+0:[        234761904.76 ]  1:[        550000000 ]  2:[        9128672.7457 ]  
+----------------------------------- 
+
+Big Spenders EFMax Bundle Price: 550000000
+Least Spenders Bundle Price: 383404255.32
+Least Spenders -> 2          , 
+Least Spenders 2's Valuation 420000000
+----> Path Violator Found
+Path Violater -> Agent - 1; Item - 3
+----> Transferring item to Agent 0
+Check: 663809523.8095 680000000 1343809523.81
+Big Spenders EFMax Bundle Price: 663809523.8095
+Least Spenders Bundle Price: 383404255.3191
+Least Spenders -> 2          , 
+Least Spenders 2's Valuation 420000000
+Exited since Proof not satisfied. Agent 0 becomes the Big Spender with bundle price: 663809523.8095

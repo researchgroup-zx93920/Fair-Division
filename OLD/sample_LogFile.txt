@@ -1,0 +1,330 @@
+Least Spenders -> 0     , 2     , 
+
+---------- Allocations: ----------- 
+Agent 0 -> 
+Agent 1 -> 5     
+Agent 2 -> 
+Agent 3 -> 4     
+Agent 4 -> 2     6     
+Agent 5 -> 0     1     3     7     
+ ------------- MBB: --------------- 
+Agent 0 -> 
+Agent 1 -> 5     
+Agent 2 -> 5     
+Agent 3 -> 4     
+Agent 4 -> 2     6     
+Agent 5 -> 0     1     3     5     7     
+------------- P(Xi): -------------- 
+0:[   0 ]      1:[   8 ]      2:[   0 ]      3:[   9 ]      4:[   13 ]      5:[   32 ]      
+----------------------------------- 
+
+------------- P(j): -------------- 
+  0:[ 7 ]        1:[ 7 ]        2:[ 8 ]        3:[ 9 ]        4:[ 9 ]        5:[ 8 ]        6:[ 5 ]        7:[ 9 ]      
+----------------------------------- 
+
+
+Least Spenders Bundle Price: 0
+Big Spender EFMax Bundle Price: 23
+----> Allocation not currently pEF1
+Least Spenders Bundle Price: 0
+Least Spenders -> 0     , 2     , 
+----> No alternating path from LS agent 0 -> Trying next LS
+Big Spenders EFMax Bundle Price: 23
+Least Spenders Bundle Price: 0
+----> No alternating path from LS agent 2 -> Increasing Prices
+LS Component: Agents -> 1     , 2     , 0     , 
+LS Component: Items -> 5     , 
+Alpha 1 -> 1.125; Alpha 2 -> 3.40282e+38
+----> Increasing Price of LS Component by beta = 1.125
+------------- P(j): -------------- 
+  0:[ 7 ]        1:[ 7 ]        2:[ 8 ]        3:[ 9 ]        4:[ 9 ]        5:[ 9 ]        6:[ 5 ]        7:[ 9 ]      
+----------------------------------- 
+
+
+---------- Allocations: ----------- 
+Agent 0 -> 
+Agent 1 -> 5     
+Agent 2 -> 
+Agent 3 -> 4     
+Agent 4 -> 2     6     
+Agent 5 -> 0     1     3     7     
+ ------------- MBB: --------------- 
+Agent 0 -> 
+Agent 1 -> 5     
+Agent 2 -> 5     4     
+Agent 3 -> 4     
+Agent 4 -> 2     6     
+Agent 5 -> 0     1     3     5     7     
+------------- P(Xi): -------------- 
+0:[   0 ]      1:[   9 ]      2:[   0 ]      3:[   9 ]      4:[   13 ]      5:[   32 ]      
+----------------------------------- 
+
+Least Spenders Bundle Price: 0
+Least Spenders -> 0     , 2     , 
+----> No alternating path from LS agent 0 -> Trying next LS
+Big Spenders EFMax Bundle Price: 23
+Least Spenders Bundle Price: 0
+----> No alternating path from LS agent 2 -> Increasing Prices
+LS Component: Agents -> 3     , 1     , 2     , 0     , 
+LS Component: Items -> 4     , 5     , 
+Alpha 1 -> 1.03704; Alpha 2 -> 3.40282e+38
+----> Increasing Price of LS Component by beta = 1.03704
+------------- P(j): -------------- 
+  0:[ 7 ]        1:[ 7 ]        2:[ 8 ]        3:[ 9 ]        4:[ 9.33333 ]        5:[ 9.33333 ]        6:[ 5 ]        7:[ 9 ]      
+----------------------------------- 
+
+
+---------- Allocations: ----------- 
+Agent 0 -> 
+Agent 1 -> 5     
+Agent 2 -> 
+Agent 3 -> 4     
+Agent 4 -> 2     6     
+Agent 5 -> 0     1     3     7     
+ ------------- MBB: --------------- 
+Agent 0 -> 1     
+Agent 1 -> 5     
+Agent 2 -> 5     4     
+Agent 3 -> 4     
+Agent 4 -> 2     6     
+Agent 5 -> 0     1     3     5     7     
+------------- P(Xi): -------------- 
+0:[   0 ]      1:[   9.33333 ]      2:[   0 ]      3:[   9.33333 ]      4:[   13 ]      5:[   32 ]      
+----------------------------------- 
+
+Least Spenders Bundle Price: 0
+Least Spenders -> 0     , 2     , 
+----> Path Violator Found
+Path Violater -> Agent - 5; Item - 1
+----> Transferring item to Agent 0
+---------- Allocations: ----------- 
+Agent 0 -> 1     
+Agent 1 -> 5     
+Agent 2 -> 
+Agent 3 -> 4     
+Agent 4 -> 2     6     
+Agent 5 -> 0     3     7     
+ ------------- MBB: --------------- 
+Agent 0 -> 1     
+Agent 1 -> 5     
+Agent 2 -> 5     4     
+Agent 3 -> 4     
+Agent 4 -> 2     6     
+Agent 5 -> 0     1     3     5     7     
+------------- P(Xi): -------------- 
+0:[   7 ]      1:[   9.33333 ]      2:[   0 ]      3:[   9.33333 ]      4:[   13 ]      5:[   25 ]      
+----------------------------------- 
+
+Least Spenders Bundle Price: 0
+Least Spenders -> 2     , 
+Big Spenders EFMax Bundle Price: 16
+Least Spenders Bundle Price: 0
+----> No alternating path from LS agent 2 -> Increasing Prices
+LS Component: Agents -> 3     , 1     , 2     , 
+LS Component: Items -> 4     , 5     , 
+Alpha 1 -> 1.07143; Alpha 2 -> 3.40282e+38
+----> Increasing Price of LS Component by beta = 1.07143
+------------- P(j): -------------- 
+  0:[ 7 ]        1:[ 7 ]        2:[ 8 ]        3:[ 9 ]        4:[ 10 ]        5:[ 10 ]        6:[ 5 ]        7:[ 9 ]      
+----------------------------------- 
+
+
+---------- Allocations: ----------- 
+Agent 0 -> 1     
+Agent 1 -> 5     
+Agent 2 -> 
+Agent 3 -> 4     
+Agent 4 -> 2     6     
+Agent 5 -> 0     3     7     
+ ------------- MBB: --------------- 
+Agent 0 -> 1     
+Agent 1 -> 5     
+Agent 2 -> 5     4     6     
+Agent 3 -> 4     
+Agent 4 -> 2     6     
+Agent 5 -> 0     1     3     5     7     
+------------- P(Xi): -------------- 
+0:[   7 ]      1:[   10 ]      2:[   0 ]      3:[   10 ]      4:[   13 ]      5:[   25 ]      
+----------------------------------- 
+
+Least Spenders Bundle Price: 0
+Least Spenders -> 2     , 
+----> Path Violator Found
+Path Violater -> Agent - 4; Item - 6
+----> Transferring item to Agent 2
+---------- Allocations: ----------- 
+Agent 0 -> 1     
+Agent 1 -> 5     
+Agent 2 -> 6     
+Agent 3 -> 4     
+Agent 4 -> 2     
+Agent 5 -> 0     3     7     
+ ------------- MBB: --------------- 
+Agent 0 -> 1     
+Agent 1 -> 5     
+Agent 2 -> 5     4     6     
+Agent 3 -> 4     
+Agent 4 -> 2     6     
+Agent 5 -> 0     1     3     5     7     
+------------- P(Xi): -------------- 
+0:[   7 ]      1:[   10 ]      2:[   5 ]      3:[   10 ]      4:[   8 ]      5:[   25 ]      
+----------------------------------- 
+
+Least Spenders Bundle Price: 5
+Least Spenders -> 2     , 
+Big Spenders EFMax Bundle Price: 16
+Least Spenders Bundle Price: 5
+----> No alternating path from LS agent 2 -> Increasing Prices
+LS Component: Agents -> 3     , 1     , 2     , 
+LS Component: Items -> 6     , 4     , 5     , 
+Alpha 1 -> 1.02857; Alpha 2 -> 1.4
+----> Increasing Price of LS Component by beta = 1.02857
+------------- P(j): -------------- 
+  0:[ 7 ]        1:[ 7 ]        2:[ 8 ]        3:[ 9 ]        4:[ 10.2857 ]        5:[ 10.2857 ]        6:[ 5.14286 ]        7:[ 9 ]      
+----------------------------------- 
+
+
+---------- Allocations: ----------- 
+Agent 0 -> 1     
+Agent 1 -> 5     
+Agent 2 -> 6     
+Agent 3 -> 4     
+Agent 4 -> 2     
+Agent 5 -> 0     3     7     
+ ------------- MBB: --------------- 
+Agent 0 -> 1     
+Agent 1 -> 5     3     
+Agent 2 -> 5     4     6     
+Agent 3 -> 4     
+Agent 4 -> 2     6     
+Agent 5 -> 0     1     3     5     7     
+------------- P(Xi): -------------- 
+0:[   7 ]      1:[   10.2857 ]      2:[   5.14286 ]      3:[   10.2857 ]      4:[   8 ]      5:[   25 ]      
+----------------------------------- 
+
+Least Spenders Bundle Price: 5.14286
+Least Spenders -> 2     , 
+----> Path Violator Found
+Path Violater -> Agent - 5; Item - 3
+----> Transferring item to Agent 1
+---------- Allocations: ----------- 
+Agent 0 -> 1     
+Agent 1 -> 5     3     
+Agent 2 -> 6     
+Agent 3 -> 4     
+Agent 4 -> 2     
+Agent 5 -> 0     7     
+ ------------- MBB: --------------- 
+Agent 0 -> 1     
+Agent 1 -> 5     3     
+Agent 2 -> 5     4     6     
+Agent 3 -> 4     
+Agent 4 -> 2     6     
+Agent 5 -> 0     1     3     5     7     
+------------- P(Xi): -------------- 
+0:[   7 ]      1:[   19.2857 ]      2:[   5.14286 ]      3:[   10.2857 ]      4:[   8 ]      5:[   16 ]      
+----------------------------------- 
+
+Least Spenders Bundle Price: 5.14286
+Least Spenders -> 2     , 
+----> Path Violator Found
+Path Violater -> Agent - 1; Item - 5
+----> Transferring item to Agent 2
+---------- Allocations: ----------- 
+Agent 0 -> 1     
+Agent 1 -> 3     
+Agent 2 -> 6     5     
+Agent 3 -> 4     
+Agent 4 -> 2     
+Agent 5 -> 0     7     
+ ------------- MBB: --------------- 
+Agent 0 -> 1     
+Agent 1 -> 5     3     
+Agent 2 -> 5     4     6     
+Agent 3 -> 4     
+Agent 4 -> 2     6     
+Agent 5 -> 0     1     3     5     7     
+------------- P(Xi): -------------- 
+0:[   7 ]      1:[   9 ]      2:[   15.4286 ]      3:[   10.2857 ]      4:[   8 ]      5:[   16 ]      
+----------------------------------- 
+
+Least Spenders Bundle Price: 7
+Least Spenders -> 0     , 
+Big Spenders EFMax Bundle Price: 7
+Least Spenders Bundle Price: 7
+----> No alternating path from LS agent 0 -> Increasing Prices
+LS Component: Agents -> 0     , 
+LS Component: Items -> 1     , 
+Alpha 1 -> 1.76327; Alpha 2 -> 1.14286
+----> Increasing Price of LS Component by beta = 1.14286
+------------- P(j): -------------- 
+  0:[ 7 ]        1:[ 8 ]        2:[ 8 ]        3:[ 9 ]        4:[ 10.2857 ]        5:[ 10.2857 ]        6:[ 5.14286 ]        7:[ 9 ]      
+----------------------------------- 
+
+
+---------- Allocations: ----------- 
+Agent 0 -> 1     
+Agent 1 -> 3     
+Agent 2 -> 6     5     
+Agent 3 -> 4     
+Agent 4 -> 2     
+Agent 5 -> 0     7     
+ ------------- MBB: --------------- 
+Agent 0 -> 1     
+Agent 1 -> 5     3     
+Agent 2 -> 5     4     6     
+Agent 3 -> 4     
+Agent 4 -> 2     6     
+Agent 5 -> 0     1     3     5     7     
+------------- P(Xi): -------------- 
+0:[   8 ]      1:[   9 ]      2:[   15.4286 ]      3:[   10.2857 ]      4:[   8 ]      5:[   16 ]      
+----------------------------------- 
+
+Least Spenders Bundle Price: 8
+Least Spenders -> 0     , 4     , 
+----> No alternating path from LS agent 0 -> Trying next LS
+----> Path Violator Found
+Path Violater -> Agent - 2; Item - 6
+----> Transferring item to Agent 4
+---------- Allocations: ----------- 
+Agent 0 -> 1     
+Agent 1 -> 3     
+Agent 2 -> 5     
+Agent 3 -> 4     
+Agent 4 -> 2     6     
+Agent 5 -> 0     7     
+ ------------- MBB: --------------- 
+Agent 0 -> 1     
+Agent 1 -> 5     3     
+Agent 2 -> 5     4     6     
+Agent 3 -> 4     
+Agent 4 -> 2     6     
+Agent 5 -> 0     1     3     5     7     
+------------- P(Xi): -------------- 
+0:[   8 ]      1:[   9 ]      2:[   10.2857 ]      3:[   10.2857 ]      4:[   13.1429 ]      5:[   16 ]      
+----------------------------------- 
+
+Big Spenders EFMax Bundle Price: 7
+Least Spenders Bundle Price: 8
+
+------ Allocation is now pEF1+fPO -------
+
+
+---------- Allocations: ----------- 
+Agent 0 -> 1     
+Agent 1 -> 3     
+Agent 2 -> 5     
+Agent 3 -> 4     
+Agent 4 -> 2     6     
+Agent 5 -> 0     7     
+ ------------- MBB: --------------- 
+Agent 0 -> 1     
+Agent 1 -> 5     3     
+Agent 2 -> 5     4     6     
+Agent 3 -> 4     
+Agent 4 -> 2     6     
+Agent 5 -> 0     1     3     5     7     
+------------- P(Xi): -------------- 
+0:[   8 ]      1:[   9 ]      2:[   10.2857 ]      3:[   10.2857 ]      4:[   13.1429 ]      5:[   16 ]      
+----------------------------------- 
+
